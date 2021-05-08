@@ -5,7 +5,8 @@ import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox-pro';
 export const ImageComponent = ({ src, photos, label, alt, video }) => {
   return (
     <Col
-      xs={6}
+      md={6}
+      xs={12}
       style={{
         display: 'flex',
         alignItems: 'center',
