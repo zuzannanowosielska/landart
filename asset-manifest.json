@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/landart/static/css/main.583215cd.chunk.css",
-    "main.js": "/landart/static/js/main.db47fdac.chunk.js",
-    "main.js.map": "/landart/static/js/main.db47fdac.chunk.js.map",
-    "runtime-main.js": "/landart/static/js/runtime-main.8debca15.js",
-    "runtime-main.js.map": "/landart/static/js/runtime-main.8debca15.js.map",
+    "main.css": "/landart/static/css/main.cf20191d.chunk.css",
+    "main.js": "/landart/static/js/main.1793227e.chunk.js",
+    "main.js.map": "/landart/static/js/main.1793227e.chunk.js.map",
+    "runtime-main.js": "/landart/static/js/runtime-main.80632505.js",
+    "runtime-main.js.map": "/landart/static/js/runtime-main.80632505.js.map",
     "static/css/2.acd75131.chunk.css": "/landart/static/css/2.acd75131.chunk.css",
-    "static/js/2.0d009504.chunk.js": "/landart/static/js/2.0d009504.chunk.js",
-    "static/js/2.0d009504.chunk.js.map": "/landart/static/js/2.0d009504.chunk.js.map",
-    "static/js/3.191d1dd4.chunk.js": "/landart/static/js/3.191d1dd4.chunk.js",
-    "static/js/3.191d1dd4.chunk.js.map": "/landart/static/js/3.191d1dd4.chunk.js.map",
+    "static/js/2.8633e3b0.chunk.js": "/landart/static/js/2.8633e3b0.chunk.js",
+    "static/js/2.8633e3b0.chunk.js.map": "/landart/static/js/2.8633e3b0.chunk.js.map",
+    "static/js/3.a36f97c6.chunk.js": "/landart/static/js/3.a36f97c6.chunk.js",
+    "static/js/3.a36f97c6.chunk.js.map": "/landart/static/js/3.a36f97c6.chunk.js.map",
     "index.html": "/landart/index.html",
     "static/css/2.acd75131.chunk.css.map": "/landart/static/css/2.acd75131.chunk.css.map",
-    "static/css/main.583215cd.chunk.css.map": "/landart/static/css/main.583215cd.chunk.css.map",
-    "static/js/2.0d009504.chunk.js.LICENSE.txt": "/landart/static/js/2.0d009504.chunk.js.LICENSE.txt",
+    "static/css/main.cf20191d.chunk.css.map": "/landart/static/css/main.cf20191d.chunk.css.map",
+    "static/js/2.8633e3b0.chunk.js.LICENSE.txt": "/landart/static/js/2.8633e3b0.chunk.js.LICENSE.txt",
     "static/media/1.9af1a819.mp4": "/landart/static/media/1.9af1a819.mp4",
     "static/media/1.cac5ddae.jpg": "/landart/static/media/1.cac5ddae.jpg",
     "static/media/2.6dfdf68b.jpg": "/landart/static/media/2.6dfdf68b.jpg",
@@ -64,10 +64,10 @@
     "static/media/video_thumb.81cf0ef6.png": "/landart/static/media/video_thumb.81cf0ef6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8debca15.js",
+    "static/js/runtime-main.80632505.js",
     "static/css/2.acd75131.chunk.css",
-    "static/js/2.0d009504.chunk.js",
-    "static/css/main.583215cd.chunk.css",
-    "static/js/main.db47fdac.chunk.js"
+    "static/js/2.8633e3b0.chunk.js",
+    "static/css/main.cf20191d.chunk.css",
+    "static/js/main.1793227e.chunk.js"
   ]
 }
