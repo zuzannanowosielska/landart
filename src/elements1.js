@@ -13,17 +13,17 @@ import a12 from './assets/1/IMG_5649.JPEG';
 import a13 from './assets/1/mr_bottle.jpg';
 
 export const elements1 = [
-  { src: a1, caption: 'Caption 1' },
-  { src: a2, caption: 'Caption 2' },
-  { src: a3, caption: 'Caption 3' },
-  { src: a4, caption: 'Caption 4' },
-  { src: a5, caption: 'Caption 5' },
-  { src: a6, caption: 'Caption 6' },
-  { src: a7, caption: 'Caption 7' },
-  { src: a8, caption: 'Caption 8' },
-  { src: a9, caption: 'Caption 9' },
-  { src: a10, caption: 'Caption 10' },
-  { src: a11, caption: 'Caption 11' },
-  { src: a12, caption: 'Caption 12' },
-  { src: a13, caption: 'Caption 13' }
+  { src: a1, caption: '' },
+  { src: a2, caption: '' },
+  { src: a3, caption: '' },
+  { src: a4, caption: '' },
+  { src: a5, caption: '' },
+  { src: a6, caption: '' },
+  { src: a7, caption: '' },
+  { src: a8, caption: '' },
+  { src: a9, caption: '' },
+  { src: a10, caption: '' },
+  { src: a11, caption: '' },
+  { src: a12, caption: '' },
+  { src: a13, caption: '' }
 ];

@@ -2,7 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox-pro';
 
-export const ImageComponent = ({ src, photos, label, alt, video }) => {
+export const ImageComponent = ({ src, photos, main, model, video }) => {
   return (
     <Col
       md={6}
@@ -20,11 +20,11 @@ export const ImageComponent = ({ src, photos, label, alt, video }) => {
         <SRLWrapper>
           <div style={{ textAlign: 'center', height: '100%', padding: 20 }}>
             <a href={src}>
-              <img src={src} alt={label} style={{ maxWidth: video ? '100%' : '60%', maxHight: '100%', margin: 'auto' }}></img>
+              <img src={src} alt={main} style={{ maxWidth: video ? '100%' : '60%', maxHight: '100%', margin: 'auto' }}></img>
             </a>
-            <p style={{ margin: '20px 20px 0px 20px', padding: 10, border: '3px solid #000' }}>
-              <b>Description: </b>
-              {label}
+            <p style={{ width: '80%', margin: '10px auto 0px auto', padding: 10, border: '3px solid #000' }}>
+              <b>{main}</b>
+              <div style={{ fontSize: '0.8em' }}>{model}</div>
             </p>
           </div>
 

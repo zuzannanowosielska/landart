@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Navbar, Nav } from 'react-bootstrap';
+import { Container, Row, Navbar } from 'react-bootstrap';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,12 +32,19 @@ const App = () => {
       </Navbar>
       <div style={{ margin: '20px auto', padding: '100px 0 0 0', width: '60%' }}>
         <Row>
-          <ImageComponent src={a} photos={elements1} label={'Label 1'} alt={''}></ImageComponent>
-          <ImageComponent src={b} photos={elements2} label={'Label 2'} alt={''}></ImageComponent>
+          <ImageComponent src={a} photos={elements1} main={'Untitled, 2021'} model={'Cardboard physical model'} alt={''}></ImageComponent>
+          <ImageComponent src={b} photos={elements2} main={'City’s protagonists, 2021'} model={'Photographs'} alt={''}></ImageComponent>
         </Row>
         <Row>
-          <ImageComponent src={c} photos={elements3} label={'Label 3'} alt={''}></ImageComponent>
-          <ImageComponent src={d} photos={elements4} label={'Label 4'} alt={''} video></ImageComponent>
+          <ImageComponent src={c} photos={elements3} main={'Plastic, 2021'} model={'Photographs'} alt={''}></ImageComponent>
+          <ImageComponent
+            src={d}
+            photos={elements4}
+            main={'The Trash Ball Cycle, 2021'}
+            model={'Video and photographs'}
+            alt={''}
+            video
+          ></ImageComponent>
         </Row>
       </div>
     </Container>
@@ -45,3 +52,8 @@ const App = () => {
 };
 
 export default App;
+
+// 1. Untitled, 2021, cardboard physical model
+// 2. City’s protagonists, 2021, photographs
+// 3. Plastic, 2021, photographs
+// 4. The Trash Ball Cycle, 2021, video and photographs
