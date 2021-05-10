@@ -2,29 +2,19 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox-pro';
 
-export const ImageComponent = ({ src, photos, main, model, video }) => {
+import styles from './page.module.css';
+
+export const ImageComponent = ({ src, photos, label, video }) => {
   return (
-    <Col
-      md={6}
-      xs={12}
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'flex-end',
-        flexDirection: 'column',
-        border: '2px solid',
-        padding: '0 20px'
-      }}
-    >
+    <Col md={6} xs={12} className={styles.element}>
       <SimpleReactLightbox>
         <SRLWrapper>
-          <div style={{ textAlign: 'center', height: '100%', padding: 20 }}>
+          <div style={{ textAlign: 'center', height: '100%', padding: '20px 60px', justifyContent: 'center' }}>
             <a href={src}>
-              <img src={src} alt={main} style={{ maxWidth: video ? '100%' : '60%', maxHight: '100%', margin: 'auto' }}></img>
+              <img src={src} alt={label} style={{ maxWidth: video ? '100%' : '80%', maxHeight: '100%', margin: 'auto' }}></img>
             </a>
-            <p style={{ width: '80%', margin: '10px auto 0px auto', padding: 10, border: '3px solid #000' }}>
-              <b>{main}</b>
-              <div style={{ fontSize: '0.8em' }}>{model}</div>
+            <p className={styles.description}>
+              <b>{label}</b>
             </p>
           </div>
 

@@ -1,0 +1,31 @@
+.description {
+  width: 80%;
+  margin: 10px auto 0px auto;
+  padding: 20;
+  font-size: 0.8em;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 430px) and (max-height: 940px) {
+  .description {
+    padding: 0;
+    width: 100%;
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 430px) and (max-height: 940px) {
+  .element {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0;
+  }
+}

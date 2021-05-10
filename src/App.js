@@ -30,18 +30,17 @@ const App = () => {
         </Navbar.Collapse> */}
         <Navbar.Toggle />
       </Navbar>
-      <div style={{ margin: '20px auto', padding: '100px 0 0 0', width: '60%' }}>
+      <div className="rowClass">
         <Row>
-          <ImageComponent src={a} photos={elements1} main={'Untitled, 2021'} model={'Cardboard physical model'} alt={''}></ImageComponent>
-          <ImageComponent src={b} photos={elements2} main={'City’s protagonists, 2021'} model={'Photographs'} alt={''}></ImageComponent>
+          <ImageComponent src={a} photos={elements1} label={'Untitled, 2021, cardboard physical model'} alt={''}></ImageComponent>
+          <ImageComponent src={b} photos={elements2} label={'City’s protagonists, 2021, photographs'} alt={''}></ImageComponent>
         </Row>
         <Row>
-          <ImageComponent src={c} photos={elements3} main={'Plastic, 2021'} model={'Photographs'} alt={''}></ImageComponent>
+          <ImageComponent src={c} photos={elements3} label={'Plastic, 2021, photographs'} alt={''}></ImageComponent>
           <ImageComponent
             src={d}
             photos={elements4}
-            main={'The Trash Ball Cycle, 2021'}
-            model={'Video and photographs'}
+            label={'The Trash Ball Cycle, 2021, video and photographs'}
             alt={''}
             video
           ></ImageComponent>
