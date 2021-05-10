@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landart/static/css/main.cf20191d.chunk.css",
+    "main.css": "/landart/static/css/main.31ce6e85.chunk.css",
     "main.js": "/landart/static/js/main.1793227e.chunk.js",
     "main.js.map": "/landart/static/js/main.1793227e.chunk.js.map",
     "runtime-main.js": "/landart/static/js/runtime-main.80632505.js",
@@ -12,7 +12,7 @@
     "static/js/3.a36f97c6.chunk.js.map": "/landart/static/js/3.a36f97c6.chunk.js.map",
     "index.html": "/landart/index.html",
     "static/css/2.acd75131.chunk.css.map": "/landart/static/css/2.acd75131.chunk.css.map",
-    "static/css/main.cf20191d.chunk.css.map": "/landart/static/css/main.cf20191d.chunk.css.map",
+    "static/css/main.31ce6e85.chunk.css.map": "/landart/static/css/main.31ce6e85.chunk.css.map",
     "static/js/2.8633e3b0.chunk.js.LICENSE.txt": "/landart/static/js/2.8633e3b0.chunk.js.LICENSE.txt",
     "static/media/1.9af1a819.mp4": "/landart/static/media/1.9af1a819.mp4",
     "static/media/1.cac5ddae.jpg": "/landart/static/media/1.cac5ddae.jpg",
@@ -67,7 +67,7 @@
     "static/js/runtime-main.80632505.js",
     "static/css/2.acd75131.chunk.css",
     "static/js/2.8633e3b0.chunk.js",
-    "static/css/main.cf20191d.chunk.css",
+    "static/css/main.31ce6e85.chunk.css",
     "static/js/main.1793227e.chunk.js"
   ]
 }
